@@ -1,3 +1,4 @@
+// task 2
 let nums = [2, 4, 3];
 
 function total(arr) {
@@ -8,7 +9,9 @@ function total(arr) {
   return s;
 }
 
+
 console.log(total(nums));
+// task 3
 function biggest(arr) {
   let b = arr[0];
   for (let i = 1; i < arr.length; i = i + 1) {
@@ -20,6 +23,7 @@ function biggest(arr) {
 }
 
 console.log(biggest(nums));
+// task 4
 function above(arr) {
   let n = 0;
   for (let i = 1; i < arr.length; i = i + 1) {
@@ -29,6 +33,7 @@ function above(arr) {
   }
   return n;
 }
+// task 5
 
 console.log(above(nums));
 document.querySelector("#show").addEventListener("click", function () {
